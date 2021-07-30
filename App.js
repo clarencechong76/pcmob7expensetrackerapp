@@ -6,6 +6,7 @@ import { SafeAreaProvider } from "react-native-safe-area-context";
 import { Provider } from "react-redux";
 import "react-native-gesture-handler";
 
+
 import store from "./store";
 
 /* Stacks */
@@ -29,6 +30,7 @@ const fonts = {
 };
 
 const AppStack = createStackNavigator();
+
 
 export default function App() {
   return (
